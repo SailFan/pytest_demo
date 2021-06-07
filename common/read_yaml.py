@@ -35,7 +35,7 @@ class ReadYaml():
 
 if __name__ == '__main__':
 
-    date = {"list_date": [("http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10", "417", 1,10),
-                          ("http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10", "417", 2,10)
+    date = {"list_date": [("http://qq/api/project/list?group_id=417&page=1&limit=10", "417", 1,10),
+                          ("http://11.3imx.cn/api/project/list?group_id=417&page=1&limit=10", "417", 2,10)
                           ]}
     ReadYaml().write_yaml(date)
