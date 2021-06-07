@@ -35,9 +35,3 @@ class LoginPage(PageObject):
 
 
 
-if __name__ == '__main__':
-    chrome_driver_path = "/Users/sail/util/chrome_driver/chromedriver"
-    driver = webdriver.Chrome(executable_path=chrome_driver_path)
-    login=LoginPage(driver)
-    login.get("https://kashangbao-test.360che.com/index.html#/login")
-    login.sava_png()

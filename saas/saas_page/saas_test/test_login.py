@@ -20,7 +20,7 @@ class TestLogin():
     @pytest.fixture(scope="class")
     def up_down(self,init_driver):
         login = LoginPage(init_driver)
-        login.get("https://kashangbao-test.360che.com/index.html#/login")
+        login.get("https://sss.360che.com/index.html#/login")
         yield login
         login.w.quit()
 
