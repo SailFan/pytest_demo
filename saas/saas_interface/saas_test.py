@@ -21,15 +21,15 @@ class TestSaasInf():
         登录， 返回session， 末尾登出
         :return:
         """
-        url="http://yapi.xxx.cn/api/user/login"
-        date={"email": "xxx.liu@360che.com", "password": "Spring123"}
+        url="http://666.xxx.cn/api/user/login"
+        date={"email": "xxx.999@000.com", "password": "777"}
         headers={
             "User_Agent":"Mozilla/5.0 (Linux; Android 10; COL-AL10 Build/HUAWEICOL-AL10; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.120 MQQBrowser/6.2 TBS/045329 Mobile Safari/537.36 MMWEBID/4678 MicroMessenger/7.0.18.1740(0x27001239) Process/tools WeChat/arm64 NetType/WIFI Language/zh_CN ABI/arm64"
         }
         s=requests.Session()
         r=s.post(url, data=date, headers=headers)
         yield s
-        r = s.get("http://yapi.3imx.cn/api/user/logout")
+        r = s.get("http://0000.0000.cn/api/user/logout")
 
     @allure.step("项目列表")
     def test_group(self,login):
@@ -38,7 +38,7 @@ class TestSaasInf():
         :param login:
         :return:
         """
-        url="http://yapi.3imx.cn/api/group/get_mygroup"
+        url="http://0000.0000.cn/api/group/get_mygroup"
         res=login.get(url).json()
 
         assert res.get("errmsg")=="成功！"
