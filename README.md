@@ -25,11 +25,9 @@ pytest 的一个小项目，可以根据需要再改动，作为一个小的架�
 4.  新建 Pull Request
 
 
-#### 特技
+#### 补充
+1、 接口测试数据可以放在yaml文件当中，其实我感觉最好接口直接录入在yapi里面，通过直接读取yaml
+接口内容做数据驱动，这样，开发方便，测试也方便，而且管理接口也整齐。
+2 、这个可以和locust做整合，后续有兴趣的在做吧。
+3、待续
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
