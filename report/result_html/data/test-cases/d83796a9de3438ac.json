@@ -1,0 +1,144 @@
+{
+  "uid" : "d83796a9de3438ac",
+  "name" : "test_list[分页第一页]",
+  "fullName" : "saas.saas_interface.saas_test.TestSaasInf#test_list",
+  "historyId" : "ad882b33fdb3d0715df50976d3c6c642",
+  "time" : {
+    "start" : 1623057699366,
+    "stop" : 1623057699384,
+    "duration" : 18
+  },
+  "description" : "\n        测试分组\n        ",
+  "descriptionHtml" : "<pre><code>    测试分组\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1623057699307,
+      "stop" : 1623057699350,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试分组\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "接口列表",
+      "time" : {
+        "start" : 1623057699367,
+        "stop" : 1623057699384,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "<requests.sessions.Session object at 0x10d4ed1f0>"
+      }, {
+        "name" : "url",
+        "value" : "'http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10'"
+      }, {
+        "name" : "page",
+        "value" : "1"
+      }, {
+        "name" : "limit",
+        "value" : "10"
+      }, {
+        "name" : "group_id",
+        "value" : "417"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1623057699403,
+      "stop" : 1623057699413,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试yapi首页接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "saas.saas_interface"
+  }, {
+    "name" : "suite",
+    "value" : "saas_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSaasInf"
+  }, {
+    "name" : "host",
+    "value" : "sail"
+  }, {
+    "name" : "thread",
+    "value" : "37242-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "saas.saas_interface.saas_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "group_id",
+    "value" : "417"
+  }, {
+    "name" : "limit",
+    "value" : "10"
+  }, {
+    "name" : "page",
+    "value" : "1"
+  }, {
+    "name" : "url",
+    "value" : "'http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d83796a9de3438ac.json",
+  "parameterValues" : [ "417", "10", "1", "'http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10'" ]
+}

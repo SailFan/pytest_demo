@@ -1,0 +1,13 @@
+account:
+- !!python/tuple
+  - vip38590
+  - 360che
+  - 登录成功
+- !!python/tuple
+  - vip38590
+  - ''
+  - 密码为空登录
+- !!python/tuple
+  - ''
+  - 360che
+  - 账号为空登录

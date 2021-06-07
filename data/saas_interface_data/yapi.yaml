@@ -1,0 +1,11 @@
+list_date:
+- !!python/tuple
+  - http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10
+  - 417
+  - 1
+  - 10
+- !!python/tuple
+  - http://yapi.3imx.cn/api/project/list?group_id=417&page=1&limit=10
+  - 417
+  - 2
+  - 10

@@ -1,0 +1,120 @@
+{
+  "uid" : "cf119d32d0d03770",
+  "name" : "test_group",
+  "fullName" : "saas.saas_interface.saas_test.TestSaasInf#test_group",
+  "historyId" : "03095e998a0aaf5a931fb57063472ebf",
+  "time" : {
+    "start" : 1623057699350,
+    "stop" : 1623057699364,
+    "duration" : 14
+  },
+  "description" : "\n        测试yapi项目列表\n        :param login:\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试yapi项目列表\n    :param login:\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "login",
+    "time" : {
+      "start" : 1623057699307,
+      "stop" : 1623057699350,
+      "duration" : 43
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        测试yapi项目列表\n        :param login:\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "项目列表",
+      "time" : {
+        "start" : 1623057699350,
+        "stop" : 1623057699364,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "login",
+        "value" : "<requests.sessions.Session object at 0x10d4ed1f0>"
+      } ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "login::0",
+    "time" : {
+      "start" : 1623057699403,
+      "stop" : 1623057699413,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试yapi首页接口"
+  }, {
+    "name" : "parentSuite",
+    "value" : "saas.saas_interface"
+  }, {
+    "name" : "suite",
+    "value" : "saas_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSaasInf"
+  }, {
+    "name" : "host",
+    "value" : "sail"
+  }, {
+    "name" : "thread",
+    "value" : "37242-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "saas.saas_interface.saas_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf119d32d0d03770.json",
+  "parameterValues" : [ ]
+}
