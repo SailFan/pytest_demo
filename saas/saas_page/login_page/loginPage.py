@@ -8,7 +8,7 @@ import os
 from datetime import datetime
 
 from page_objects import PageObject, PageElement
-from selenium import webdriver
+
 
 class LoginPage(PageObject):
 
